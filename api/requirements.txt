@@ -1,0 +1,1 @@
+# Vercel Serverless Function Dependencies (empty - standard library WSGI)
