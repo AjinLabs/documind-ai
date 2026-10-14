@@ -32,7 +32,7 @@ python -m pytest tests/ -v
 
 ### 5. Launch the Application
 ```powershell
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 The browser interface will open automatically at `http://localhost:8501`.
 
@@ -56,7 +56,7 @@ $env:GEMINI_API_KEY="AIzaSy..."
 1. Fork or push this repository to your GitHub account: `https://github.com/AjinLabs/documind-ai`.
 2. Visit [share.streamlit.io](https://share.streamlit.io).
 3. Connect your GitHub account and select `documind-ai`.
-4. Set Main file path to `app.py`.
+4. Set Main file path to `streamlit_app.py`.
 5. Click **Deploy!**
 
 ### Option 2: Render.com (1-Click Web Service)

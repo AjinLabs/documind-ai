@@ -120,7 +120,7 @@ python -m pytest tests/ -v
 
 ### 4. Launch Application
 ```powershell
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
@@ -128,7 +128,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## Deployment Options
 
-- **Streamlit Community Cloud (Free 1-Click)**: Connect [share.streamlit.io](https://share.streamlit.io) to `https://github.com/AjinLabs/documind-ai` and select `app.py`.
+- **Streamlit Community Cloud (Free 1-Click)**: Connect [share.streamlit.io](https://share.streamlit.io) to `https://github.com/AjinLabs/documind-ai` and select `streamlit_app.py`.
 - **Render.com**: Connect the repository using the included `render.yaml` blueprint.
 - **Docker**: Build container image using `docker build -t documind-ai .` and run `docker run -p 8501:8501 documind-ai`.
 - **Vercel**: Includes `vercel.json` and `api/index.py` serverless gateway.

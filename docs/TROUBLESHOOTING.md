@@ -26,7 +26,7 @@
 ### 5. Streamlit Port Conflict (`8501 already in use`)
 - **Resolution**: Specify a custom port:
   ```powershell
-  streamlit run app.py --server.port 8502
+  streamlit run streamlit_app.py --server.port 8502
   ```
 
 ### 6. SQLite Database Locked (`sqlite3.OperationalError: database is locked`)
